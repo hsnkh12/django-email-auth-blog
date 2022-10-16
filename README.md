@@ -2,6 +2,8 @@
 
 How to login/register with email instead of username in Django
 
+blog url -> https://hassanelabdallah.hashnode.dev/how-to-loginregister-with-email-instead-of-username-in-django
+
 
 
 # Introduction
