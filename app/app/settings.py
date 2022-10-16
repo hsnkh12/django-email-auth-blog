@@ -116,12 +116,15 @@ USE_I18N = True
 
 USE_TZ = True
 
+LOGOUT_REDIRECT_URL = "/auth/"
+LOGIN_REDIRECT_URL = "/auth/"
+
 EMAIL_BACKEND ='django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.gmail.com' # Add your smtp server here
+EMAIL_HOST = 'smtp.DOMAIN.com' # Add your smtp server here
 EMAIL_USE_TLS = True
 EMAIL_PORT = 587 
-EMAIL_HOST_USER = 'sendthro@gmail.com' # Add your email here
-EMAIL_HOST_PASSWORD = 'wvYfECJrcGB8hz8c' # Add your password here
+EMAIL_HOST_USER = '' # Add your email here
+EMAIL_HOST_PASSWORD = '' # Add your password here
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
